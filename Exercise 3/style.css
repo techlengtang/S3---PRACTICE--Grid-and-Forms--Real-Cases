@@ -1,0 +1,125 @@
+body{
+    background-color: aliceblue;
+    font-family: Roboto, Arial, sans-serif;
+    display: flex;
+    gap: 10px;
+}
+.left-section{
+    background-color: #fff;
+    width: 50%;
+    height: 100vh;
+    box-shadow: 0px 3px 3px gray;
+    padding: 30px;
+}
+.item{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid #dedede;
+}
+.description{
+    width: 100%;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -15px;
+}
+.state{
+    display: flex;
+    gap: 10px;
+    font-size: x-small;
+}
+.option{
+    display: flex;
+    gap: 10px;
+}
+.size select{
+    cursor: pointer;
+    height: 25px;
+    border-radius: 10px;
+}
+.quantity{
+    border: 1px solid;
+    border-radius: 10px;
+}
+.quantity input{
+    border: 0;
+}
+.quantity button{
+    border: 0;
+    padding: 3px 7px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.quantity button:hover{
+    background-color: #e1e1e1;
+}
+.save,.delete{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.save-delete{
+    display: flex;
+    gap: 10px;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-section{
+    background-color: #fff;
+    height: 80vh;
+    width: 50vh;
+    box-shadow: 0px 3px 3px gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.header-right{
+    border-bottom: 1px dashed #c6c3c3;
+}
+.delivery-fee{
+    width: 200px;    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.delivery-fee button{
+    background-color:rgb(225, 225, 225);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.promo{
+    height: 30px;
+    padding: 5px;
+    display: flex;
+}
+.charge-container{
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+}
+.item-charge{
+    display: flex;
+    justify-content: space-between;
+}
+.total-section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.total-section button{
+    border-radius: 10px;
+    padding: 10px;
+}
